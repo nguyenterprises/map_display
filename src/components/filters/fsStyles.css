@@ -1,0 +1,40 @@
+#fc-header{
+    display: flex;
+    gap: 0.5em;
+}
+#fc-logo {
+    width: 50px;
+    position: relative;
+}
+#hanh-med {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#fc-name {
+    font-size: 40px;
+    color: rgba(222, 209, 193, 1);
+}
+#filter-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    flex-wrap: wrap;
+    
+}
+#fc-geocoder {
+    margin-right: 6em;
+}
+@media screen and (max-width: 450px) {
+    #fc-geocoder {
+        margin-right: 0em;
+    }
+}
+@media screen and (max-width: 580px) {
+    #fc-geocoder {
+        flex-basis: 300px;
+    }
+  }

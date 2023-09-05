@@ -1,0 +1,84 @@
+#intro-area {
+    position: relative;
+    overflow: hidden;
+}
+
+#cover-overlay-mobile {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+}
+#cover-overlay-desktop {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.87) 30%, rgba(0, 0, 0, .8) 100%);
+    backdrop-filter: blur(3px);
+}
+
+#title-container {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -5%);
+    font-size: 2.5rem; 
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .15em;
+    width: 95%;
+}
+
+#tc-header{
+    display: flex;
+    gap: 0.15em;
+}
+#tc-logo {
+    width: 30px;
+    position: relative;
+}
+#hanh-tc {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#tc-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #F9F9F9;
+}
+
+
+#title {
+    font-size: 3.5rem; 
+    font-weight: 700;
+    text-align: center;
+    color: #F9F9F9;
+}
+#sub-title {
+    font-size: 1.25rem; 
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+#geocoder-container {
+    margin-left: -2em!important;
+
+}
+@media screen and (max-width: 450px) {
+    #geocoder-container {
+        margin-left: 0em!important;
+
+    }
+  }

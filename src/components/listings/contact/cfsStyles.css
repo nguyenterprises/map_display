@@ -1,0 +1,39 @@
+#sched {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.btn-delete {
+    color: rgba( 0, 0, 0, 0.5);
+    font-weight: 400;
+    padding: 0;
+    font-size: .9rem;
+    border-color: transparent;
+
+}
+.btn-delete:hover {
+    color: red;
+    border-color: transparent;
+    cursor: pointer;
+    font-weight: 500;
+}
+.btn-delete:focus,
+.btn-delete:focus-visible {
+    outline: none !important;
+}
+.delete-spacer {
+    color: rgba( 0, 0, 0, 0.5);
+    font-weight: 400;
+    font-size: .8rem;
+    vertical-align: middle;
+}
+.btn-reverse {
+    border-color: transparent;
+    color: #193694;
+    font-weight: 600;
+   
+}
+.btn-reverse:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+    cursor: pointer;
+}

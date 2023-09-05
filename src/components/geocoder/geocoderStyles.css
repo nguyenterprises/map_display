@@ -1,0 +1,17 @@
+.mapboxgl-ctrl-geocoder {
+    width: 130%!important;
+    padding-top: .1em!important;
+    padding-bottom: .05em!important;
+    font-size: 1rem!important;
+    border-radius: 5px!important;
+  }
+  
+  .mapboxgl-ctrl-geocoder--input:focus {
+    outline: none!important;
+  }
+  
+  @media screen and (max-width: 450px) {
+    .mapboxgl-ctrl-geocoder {
+      width: 100%!important;
+    }
+  }
